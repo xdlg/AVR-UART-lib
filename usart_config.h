@@ -21,7 +21,7 @@
 //#define RX_GETC_ECHO // echoes back received characters in getc() function
 
 //#define PUTC_CONVERT_LF_TO_CRLF // allow for unix style (\n only) newline terminator in stored strings // not included into putc_noblock
-#define RX_NEWLINE_MODE 2 // 0 - \r,  1 - \n,  2 - \r\n
+#define RX_NEWLINE_MODE 1 // 0 - \r,  1 - \n,  2 - \r\n
 // lot of terminals sends only \r character as a newline terminator, instead of \r\n or even unix style \n
 // (BTW PuTTY doesn't allow to change this) but in return requires \r\n terminator to show not broken text
 
